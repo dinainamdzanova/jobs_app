@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F6F7FB;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+header {
+    margin-bottom: 40px;
+}
+p {
+    margin: 32px 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282538;    
+}
+main {
+    display: flex;
+    justify-content: space-between;
+}
+aside p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #B9BDCF;
+    margin-bottom: 15px;
+}
